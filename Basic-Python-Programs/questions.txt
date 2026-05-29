@@ -1,0 +1,30 @@
+Basic-Python-Programs/
+│
+├── 01_hello_world.py
+├── 02_swap_using_third_variable.py
+├── 03_swap_without_third_variable.py
+├── 04_even_or_odd.py
+├── 05_leap_year.py
+├── 06_largest_of_three.py
+├── 07_print_1_to_10.py
+├── 08_print_10_to_1.py
+├── 09_sum_of_n_numbers.py
+├── 10_even_numbers_in_range.py
+├── 11_odd_numbers_in_range.py
+├── 12_prime_number.py
+├── 13_right_angle_triangle.py
+├── 14_inverted_right_angle_triangle.py
+├── 15_symmetric_right_angle.py
+├── 16_inverted_symmetric.py
+├── 17_triangle.py
+├── 18_inverted_triangle.py
+├── 19_diamond.py
+├── 20_sandclock.py
+├── 21_square.py
+├── 22_reverse_number.py
+├── 23_palindrome.py
+├── 24_armstrong.py
+├── 25_happy_number.py
+├── 26_sum_of_digits.py
+├── 27_factorial.py
+├── 28_fibonacci_series.py
