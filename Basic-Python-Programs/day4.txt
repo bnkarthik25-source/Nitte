@@ -1,0 +1,16 @@
+1.	Create a Function to Check Whether a Year is a Leap Year 
+2.	Create a Function to Check Whether a Number is an Armstrong Number 
+3.	Create a Function to Print a Diamond Pattern 
+4.	Create a Function to Check Whether a Number is a Happy Number 
+5.	Create a Function to Check Whether a Number is a Palindrome Number
+6.	Create a Function to Return Prime Numbers from the Range of 1 to 100 
+7.	Create a Function to Return the Second Largest Digit in a Number 
+8.	Create a Function to Return the Largest Prime Digit in a Number 
+9.	Create a Function to Return a String After Removing Duplicate Characters 
+10.	Create a Function to Return the Sentence with Words Reversed
+11.     Largest Word in sentence 
+12.     Find Digits
+13.     Library Fine
+14.     Hallowen Sale
+15.     Extra long factorials
+16.     Beautiful Days At movies
