@@ -1,0 +1,42 @@
+1.	Shortest Word in a Sentence 
+2.	Length of Last Word 
+3.	Count Total Words 
+4.	Length of First Word 
+5.	Most Frequent Word 
+6.	First Repeated Word 
+
+
+7.	Reverse a String using Slicing 
+8.	Check Palindrome using Slicing 
+9.	Reverse Every Alternate Character 
+10.	Extract First Half of a String 
+11.	Extract Second Half of a String 
+12.	Remove First and Last Character 
+13.	Print Characters at Even Indices 
+14.	Print Characters at Odd Indices 
+15.	Reverse Each Word using Slicing 
+16.	Swap First and Last Character using Slicing 
+17.	Rotate a String Left by K Characters 
+18.	Rotate a String Right by K Characters 
+19.	Remove Middle Character(s) 
+20.	Extract Every Third Character 
+21.	Reverse Words in a Sentence using Slicing
+
+1.	Find sum of all elements in a list 
+2.	Find largest element in a list 
+3.	Find smallest element in a list 
+4.	Find average of list elements 
+5.	Count even numbers in a list 
+6.	Count odd numbers in a list 
+7.	Print positive numbers from a list 
+8.	Print negative numbers from a list 
+9.	Search an element in a list 
+
+
+
+
+
+
+1.	Linear Search
+2.	Binary Search
+3.	Two Sum 
