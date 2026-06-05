@@ -1,0 +1,13 @@
+1.	Find the Difference
+2.	Fizz Buzz
+3.	Rotate String
+4.	Check if All Characters Have Equal Number of Occurrences
+5.	Is Subsequence
+6.	Repeated Substring Pattern
+7.	length of a lastword
+8.	Maximum 69 Number
+9.	Lemonade Change 
+10.	Ugly Number
+11.	Number of 1 Bits
+12.	Sort Array By Parity
+13.	Sqrt(x)
