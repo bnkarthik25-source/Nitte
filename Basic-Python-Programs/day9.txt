@@ -1,0 +1,16 @@
+1.	oops
+->	classes and object
+-> 	constructor
+-> 	inheritance
+-> 	polymorphism
+-> 	encapsulation
+
+
+1.	Climbing Stairs
+2.	Min Climbing Stairs
+3.	Best time to buy and sell stock 2
+4.	Nth tribonacii 
+5.	Sort Array by parity 2
+->	Sets (Introduction and its methods)
+6.	Contains Duplicate
+7.	Add Digits
