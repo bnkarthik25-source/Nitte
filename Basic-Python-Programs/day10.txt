@@ -1,0 +1,28 @@
+1.	Age Validation
+Create a custom exception InvalidAgeError.
+If age < 18, raise exception. 
+
+2.	Salary Check
+Create a custom exception LowSalaryError.
+If salary < 10000, raise exception. 
+
+3.	Bank Withdrawal
+Create a custom exception InsufficientBalanceError.
+If withdrawal amount > balance, raise exception. 
+
+4.	Marks Validation
+Create a custom excep
+5.	tion InvalidMarksError.
+If marks < 0 or marks > 100, raise exception. 
+
+5.	Login System
+Create a custom exception InvalidLoginError.
+If username != "admin", raise exception.
+
+
+1.	House robber
+2.	Jump Game
+3.	Integer Break
+4.	Height Checker
+5.	Contains Duplicate 2
+6.	Intersection of 2 array
