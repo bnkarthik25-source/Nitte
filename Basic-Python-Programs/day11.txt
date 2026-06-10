@@ -1,0 +1,8 @@
+1. Pascal Triangle
+2. Pascal Triangle 2
+3. Robot to the origin
+4. Maximum Subarray
+5. Evaluate Reverse Polish Notation
+6. Minimum add to make Parantesis
+7. Max Consecutive One's
+8. Distribute Candies
