@@ -1,0 +1,166 @@
+CREATE DATABASE trainingdb;
+USE trainingdb;
+-- Step 2
+
+-- Create only one table.
+
+CREATE TABLE student(
+    id INT,
+    name VARCHAR(30),
+    age INT
+);
+
+-- Now practice all questions on this same table.
+
+-- INSERT (10 Questions)
+-- Insert one student record.
+
+insert into student values(1,"karthik",21);
+-- Insert two more student records.
+insert into student values(2,"varun",22),(3,"nagendra",23);
+-- Insert a student with age 18.
+insert into student values(4,"manish",18);
+-- Insert a student with age 21.
+insert into student values(5,"manoj",21);
+-- Insert a student with age 25.
+insert into student values(6,"priyanth",25);
+-- Insert 5 student records in a single query.
+insert into student values(7,"raju",21),(8,"satya",23),(8,"hitesh",22),(9,"dillep",23),(10,"hrithik",24);
+-- Insert a student named Ravi.
+insert into student values(11,"ravi",25);
+-- Insert a student named Kiran.
+insert into student values(12,"kiran",25);
+-- Insert a student named Manoj.
+insert into student values(13,",Manoj",23);
+-- Insert a student of your choice.
+insert into student values(14,"sachin",24);
+-- SELECT (10 Questions)
+-- Display all records.
+
+select * from student;
+-- Display only student names.
+select name from student;
+-- Display only student ages.
+select age from student;
+-- Display only student IDs.
+select id from student;
+-- Display names and ages.
+select name,age from student;
+-- Display IDs and names.
+select id,name from student;
+-- Display IDs and ages.
+select id,age from student;
+-- Display the first inserted record.
+-- Display the last inserted record.
+-- Display all records again.
+-- WHERE (10 Questions)
+-- Display student whose id is 1.
+select * from student where id=1;
+-- Display student whose id is 2.
+select * from student where id=2;
+-- Display student whose age is 21.
+select * from student where id=21;
+-- Display student whose age is 18.
+select * from student where id=18;
+-- Display student whose name is Ravi.
+select * from student where name="ravi";
+-- Display student whose name is Kiran.
+select * from student where name="kiran";
+-- Display students whose age is greater than 20.
+select * from student where age>20;
+-- Display students whose age is less than 25.
+select * from student where age<25;
+-- Display students whose age is equal to 22.
+select * from student where age=22;
+-- Display students whose id is greater than 3.
+select * from student where id>3;
+-- UPDATE (10 Questions)
+select * from student where id=4;
+
+-- Change the name of student with id 1.
+SET SQL_SAFE_UPDATES = 0;
+update student set name="ganguli"  where id=1;
+
+
+-- Change the age of student with id 2.
+update student set age=24 where id=2;
+-- Change the name of student with id 3.
+
+update student set name="bhogendra" where id=3;
+-- Change the age of student with id 4.
+update student set age=24 where id=4;
+-- Change both name and age of student with id 5.
+select * from student where id=5;
+update student set name="manoja" ,age=21 where id=5;
+-- Change a student's name to Ravi.
+update student set name="Ravi";
+select * from student;
+-- Change a student's age to 30.
+update student set age=30;
+-- Change a student's name to Karthik.
+update student set name="Karthik";
+-- Change both columns for any student.
+update student set name="manikanta",age=41 where id=1;
+-- Change the age of all students.
+-- DELETE (10 Questions)
+-- Delete student with id 1.
+delete from student where id=1;
+-- Delete student with id 2.
+delete from student where id=2;
+-- Delete student whose name is Ravi.
+delete from student where name="ravi";
+select * from student;
+
+
+update student set name ="ravi",age=18 where id=4;
+
+-- Delete student whose age is 18.
+delete from student where age=18;
+
+-- Delete student whose age is 25.
+update student set age=25 where id=5;
+delete from student where age=25;
+-- Delete any one student record.
+
+select * from student;
+
+delete from student where id=6;
+-- Delete student with highest id.
+
+delete from student where max(id);
+-- Delete student with lowest id.
+-- Delete student named Kiran.
+-- Delete all records from the table.
+-- ORDER BY (10 Questions)
+-- Display students by id ascending.
+-- Display students by id descending.
+-- Display students by name ascending.
+-- Display students by name descending.
+-- Display students by age ascending.
+-- Display students by age descending.
+-- Display names sorted alphabetically.
+-- Display names in reverse alphabetical order.
+-- Display all records sorted by age.
+-- Display all records sorted by id.
+-- LIKE (10 Questions)
+-- Display students whose name starts with 'K'.
+-- Display students whose name starts with 'R'.
+-- Display students whose name ends with 'h'.
+-- Display students whose name ends with 'n'.
+-- Display students whose name contains 'ar'.
+-- Display students whose name contains 'ra'.
+-- Display students whose name starts with 'M'.
+-- Display students whose name contains 'i'.
+-- Display students whose name ends with 'a'.
+-- Display students whose name starts with 'A'.
+-- Aggregate Functions (10 Questions)
+-- Count total students.
+-- Find maximum age.
+-- Find minimum age.
+-- Find average age.
+-- Find total age of all students.
+-- Count students whose age is greater than 20.
+-- Find maximum id.
+-- Find minimum id.
+-- Find average id.
+-- Count all records in the table.
